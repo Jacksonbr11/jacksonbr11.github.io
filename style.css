@@ -4,33 +4,29 @@ div {
   margin-top: 15px;
   padding: 20px;
   width: 75%;
+  margin: auto;
 }
 
 h1{
  font-size: 70px;
  margin: 0;
- float: center;
 }
 
 h2{
  font-size: 30px;
-   margin: 0;
-    float: center;
+ margin: 0;
 }
 h3{
  font-size: 50px;
-   margin: 0;
-  float: center;
+ margin: 0;
 }
 h4{
  font-size: 30px;
-   margin: 0;
-  float: center;
+ margin: 0;
 }
 h5{
  font-size: 20px;
-   margin: 0;
-  float: center;
+ margin: 0;
 }
 p{
 
