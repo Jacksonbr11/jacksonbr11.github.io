@@ -1,8 +1,8 @@
 div {
   border-radius: 25px;
   background: #99ff99;
-  padding: 20px; 
   margin-top: 15px;
+  float: center;
 }
 
 h1{
