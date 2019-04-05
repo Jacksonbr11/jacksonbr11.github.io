@@ -2,7 +2,7 @@ div {
   border-radius: 25px;
   background: #99ff99;
   margin-top: 15px;
-  float: center;
+  padding: 20px;
 }
 
 h1{
