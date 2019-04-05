@@ -3,6 +3,7 @@ div {
   background: #99ff99;
   margin-top: 15px;
   padding: 20px;
+  float: center;
 }
 
 h1{
