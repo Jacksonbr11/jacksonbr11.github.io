@@ -3,24 +3,28 @@ div {
   background: #99ff99;
   margin-top: 15px;
   padding: 20px;
-  float: center;
 }
 
 h1{
  font-size: 70px;
+    float: center;
 }
 
 h2{
  font-size: 30px;
+    float: center;
 }
 h3{
  font-size: 50px;
+  float: center;
 }
 h4{
  font-size: 30px;
+  float: center;
 }
 h5{
  font-size: 20px;
+  float: center;
 }
 p{
 
