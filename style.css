@@ -29,7 +29,8 @@ h5{
  font-size: 20px;
  margin: 0;
 }
-p{
-
+body{
+    height: 200px;
+  width: 50%;
 }
 
