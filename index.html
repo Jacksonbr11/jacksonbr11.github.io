@@ -9,6 +9,34 @@
 			</style>
 			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	</head>
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#profile">Section 1</a></li>
+          <li><a href="#education">Section 2</a></li>
+          <li><a href="#work experience">Section 3</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
 
   <div>
     <h1>Brant Jackson</h1> 
@@ -17,7 +45,7 @@
     <h2>651.295.5336</h2>
   </div>
   
-    <div>
+    <div id="profile" class="container-fluid">
       <h3 class = "well">Profile</h3>
         <p>
          Team building experience, excellent verbal skills, strong computer skills, 
@@ -25,14 +53,14 @@
         </p>
     </div>
 
-    <div>
+    <div id="eduacation" class="container-fluid">
       <h3>Education</h3>
       <h4>Minnesota State University Moorhead</h4>
       <h5>Bachelor of Science</h5>
       <h5>Majoring: Graphic Communication</h5>
     </div>
 
-    <div>
+    <div id="work experience" class="container-fluid">
       <h3>Work Experience</h3>
       <h4>Whole Foods Market</h4>
       <h5>Receiver</h5>
