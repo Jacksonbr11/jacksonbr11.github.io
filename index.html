@@ -156,8 +156,8 @@
 		<a href="http://threejs.org" target="_blank" rel="noopener">three.js</a> - OBJLoader test
 		</div>
 
-		<script src="js/three.js"></script>
-		<script src="js/OBJLoader.js"></script>
+		<script src="three.js"></script>
+		<script src="OBJLoader.js"></script>
 
 		<script>
 			var container;
@@ -194,7 +194,7 @@
 				};
 				// texture
 				var textureLoader = new THREE.TextureLoader( manager );
-				var texture = textureLoader.load( 'assets/Tea Pot.mtl' );
+				var texture = textureLoader.load( 'Tea Pot.mtl' );
 				// model
 				function onProgress( xhr ) {
 					if ( xhr.lengthComputable ) {
@@ -204,7 +204,7 @@
 				}
 				function onError() {}
 				var loader = new THREE.OBJLoader( manager );
-				loader.load( 'assets/Tea Pot.obj', function ( obj ) {
+				loader.load( 'Tea Pot.obj', function ( obj ) {
 					object = obj;
 				}, onProgress, onError );
 				//
