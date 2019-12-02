@@ -190,7 +190,7 @@
 						};
 						// texture
 						var textureLoader = new THREE.TextureLoader( manager );
-						var texture = textureLoader.load( 'Tea Pot.mtl' );
+						var texture = textureLoader.load( 'test.mtl' );
 						// model
 						function onProgress( xhr ) {
 							if ( xhr.lengthComputable ) {
@@ -200,7 +200,7 @@
 						}
 						function onError() {}
 						var loader = new THREE.OBJLoader( manager );
-						loader.load( 'Tea Pot.obj', function ( obj ) {
+						loader.load( 'test.obj', function ( obj ) {
 							object = obj;
 						}, onProgress, onError );
 						//
